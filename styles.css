@@ -1,0 +1,74 @@
+body {
+    background-color:#f1f1f1 ;
+    /* размер шрифта */
+font-size: 16px;
+/* жирность шрифта */
+font-weight: normal;
+/* стиль шрифта */
+font-family: 'Roboto', sans-serif;
+/* font: normal 16px 'Roboto, sans-serif'; более короткая запись в определенном порядке */
+}
+/* работа над стилем всех ссылок */
+a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+/* действия с ссылками (подчеркивание в этом случае) */
+a:hover {
+text-decoration: underline;
+}
+/* ссылка после нажатия становится опр. цвета */
+a:active{
+    color:aqua
+}
+/* кнопка преобретает цвет после нажатия */
+a:visited{
+    color: black;
+}
+.avatar {
+    width: 200px;
+    /* скругление. (% или px)*/
+    border-radius: 25px;
+    /* создание эффекта тени */
+    box-shadow: 4px 4px 14px rgba(0,0,0,0)
+}
+/* отсылка к блоку div под названием info1 */
+.info1 p {
+    color: #0b0c0a73;
+    /* отступ от краев */
+    margin: 0;
+    font-style:italic;
+    font-weight: bold;
+    /* элементы к тексту (зачеркнутый, перечеркнутый) */
+    text-decoration: none;
+    /* трансформауия текста (заглавные, все маленькие и т.д.) */
+    text-transform:uppercase;
+    /* количество px между буквами */
+    letter-spacing: ;
+    /* пространство между словами в px */
+    word-spacing: ;
+}
+/* Box Model */
+.container {
+    /* задает адаптивность и максимальное занимаемое пространство */
+    max-width: 750px;
+    /* делает сайт посередине */
+    margin: auto;
+}
+.prichini {
+    background: red;
+    /* отступы от текста, внутренние границы. (значения по часовой стрелке) */
+    padding: 15px 40px 20px 40 px;
+    /* или вот так */
+    /* padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px; */
+    /* еще одна внутрення граница (размер, стиль, цвет) */
+    border: 5px solid rgb(205, 216, 44);
+    /* управление отдельными элементами границы */
+    border-bottom-style: dotted;
+    border-right-color: rgb(0, 255, 55);
+    /* внешняя граница от остального контента */
+    margin: 5px;
+}
